@@ -5,11 +5,11 @@
         // --- DATA ---
         const menuItems = [
      { id: 1 ,name: " Nasi Ayam Kipas ", category:  "Makanan", price: 16000 , rating: 4.5, time: "10 min", img: " img/menu/Makanan/Ayam%20Kipas.png ", desc: " Nasi Ayam Kipas ." },
-{ id: 2 ,name: " Nasi Ayam<br/>Serundeng", category:  "Makanan", price: 15000 , rating: 4.5, time: "10 min", img: " img/menu/Makanan/Ayam%20Serundeng.png ", desc: " Nasi Ayam Serundeng ." },
+{ id: 2 ,name: " Nasi Ayam Serundeng ", category:  "Makanan", price: 15000 , rating: 4.5, time: "10 min", img: " img/menu/Makanan/Ayam%20Serundeng.png ", desc: " Nasi Ayam Serundeng ." },
 { id: 3 ,name: " Nasi Cumi Calamari ", category:"Makanan", price: 15000 , rating: 4.5, time: "10 min", img: " img/menu/Makanan/Cumi%20Calamari.png ", desc: " Nasi Cumi Calamari ." },
 { id: 4 ,name: " Nasi Udang Selimut ", category:  "Makanan", price: 15000 , rating: 4.5, time: "10 min", img: " img/menu/Makanan/Udang%20Selimut.png ", desc: " Nasi Udang Selimut ." },
-{ id: 5 ,name: " Nasi Chicken Katsu <br/> Barbeque ", category:  "Makanan", price: 15000 , rating: 4.5, time: "10 min", img: " img/menu/Makanan/Chicken%20Katsu%20Barbeque.png ", desc: " Nasi Chicken Katsu <br/> Barbeque ." },
-{ id: 6 ,name: " Nasi Chicken Katsu <br/> Lada Hitam ", category:  "Makanan", price: 15000 , rating: 4.5, time: "10 min", img: " img/menu/Makanan/Chicken%20Katsu%20%20Lada%20Hitam.png ", desc: " Nasi Chicken Katsu <br/> Lada Hitam ." },
+{ id: 5 ,name: " Nasi Chicken Katsu Barbeque ", category:  "Makanan", price: 15000 , rating: 4.5, time: "10 min", img: " img/menu/Makanan/Chicken%20Katsu%20Barbeque.png ", desc: " Nasi Chicken Katsu Barbeque ." },
+{ id: 6 ,name: " Nasi Chicken Katsu Lada Hitam ", category:  "Makanan", price: 15000 , rating: 4.5, time: "10 min", img: " img/menu/Makanan/Chicken%20Katsu%20%20Lada%20Hitam.png ", desc: " Nasi Chicken Katsu Lada Hitam ." },
 { id: 7 ,name: " Nasi Sayap Spacy ", category:  "Makanan", price: 15000 , rating: 4.5, time: "10 min", img: " img/menu/Makanan/Ayam%20Spicy.png ", desc: " Nasi Sayap Spacy ." },
 { id: 8 ,name: " Nasi Telur Dadar ", category:  "Makanan", price: 11000 , rating: 4.5, time: "10 min", img: " img/menu/Makanan/Telor%20Dadar.png ", desc: " Nasi Telur Dadar ." },
 { id: 9 ,name: " Nasi Usus ", category:  "Makanan", price: 13000 , rating: 4.5, time: "10 min", img: " img/menu/Makanan/Usus.png ", desc: " Nasi Usus ." },
@@ -26,8 +26,6 @@
 { id: 20 ,name: " Tahu Dimsum ", category:  "Jajan", price: 12000 , rating: 4.5, time: "10 min", img: " img/menu/Jajan/tahu%20dimsum%20Ayam.png ", desc: " Tahu Dimsum ." },
 { id: 21 ,name: " Salad Buah ", category:  "Jajan", price: 15000 , rating: 4.5, time: "10 min", img: " img/menu/Jajan/ ", desc: " Salad Buah ." },
 { id: 22 ,name: " Puding Susu ", category:  "Jajan", price: 10000 , rating: 4.5, time: "10 min", img: " img/menu/Jajan/Puding%20Susu%20Coklat.png ", desc: " Puding Susu ." },
-
-
 { id: 23 ,name: " Es Teh Original ", category:  "Minuman", price: 5000 , rating: 4.5, time: "5 min", img: " img/menu/Minuman/Es%20Teh%20Ori.png ", desc: " Es Teh Original ." },
 { id: 24 ,name: " Es Teh Leci ", category:  "Minuman", price: 8000 , rating: 4.5, time: "5 min", img: " img/menu/Minuman/Es%20Teh%20Leci.png ", desc: " Es Teh Leci ." },
 { id: 25 ,name: " Es Teh Melon ", category:  "Minuman", price: 8000 , rating: 4.5, time: "5 min", img: " img/menu/Minuman/Es%20Teh%20Melon.png ", desc: " Es Teh Melon ." },
@@ -43,7 +41,7 @@
 { id: 35 ,name: " Mango Milk ", category:  "Minuman", price: 8000 , rating: 4.5, time: "5 min", img: " img/menu/Minuman/Mango%20Milk.png ", desc: " Mango Milk ." },
 { id: 36 ,name: " Chocolate Milk ", category:  "Minuman", price: 8000 , rating: 4.5, time: "5 min", img: " img/menu/Minuman/Chocolate%20Milk.png ", desc: " Chocolate Milk ." },
 { id: 37 ,name: " Coffee Latte ", category:  "Minuman", price: 12000 , rating: 4.5, time: "5 min", img: " img/menu/Minuman/Chocolate%20Milk-1.png ", desc: " Coffee Latte ." },
-{ id: 38 ,name: " Coffee Latte<br/>Brown Sugar ", category:  "Minuman", price: 14000 , rating: 4.5, time: "5 min", img: " img/menu/Minuman/Coffee%20Latte%20Brown%20Sugar.png ", desc: " Coffee Latte Brown Sugar ." },
+{ id: 38 ,name: " Coffee Latte Brown Sugar ", category:  "Minuman", price: 14000 , rating: 4.5, time: "5 min", img: " img/menu/Minuman/Coffee%20Latte%20Brown%20Sugar.png ", desc: " Coffee Latte Brown Sugar ." },
 { id: 39 ,name: " Sup Buah ", category:  "Minuman", price: 12000 , rating: 4.5, time: "5 min", img: " img/menu/Minuman/Sup%20Buah.png ", desc: " Sup Buah ." },
 { id: 40 ,name: " Cendol Kecebong ", category:  "Minuman", price: 12000 , rating: 4.5, time: "5 min", img: " img/menu/Minuman/Cendol%20Kecebong.png ", desc: " Cendol Kecebong ." },
 
@@ -241,7 +239,7 @@
             }
 
             // Buat Pesan
-            let message = "Halo Asap Pedas X Teko, saya ingin memesan:%0A%0A"; // %0A adalah enter
+            let message = "Halo Asap Pdas X Teko, saya ingin memesan:%0A%0A"; // %0A adalah enter
             let subtotal = 0;
 
             cart.forEach(item => {
