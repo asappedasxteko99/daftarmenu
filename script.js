@@ -1,10 +1,9 @@
     // --- KONFIGURASI WA ---
-        // Ganti nomor di bawah ini dengan nomor WhatsApp restoran (Gunakan kode negara, tanpa tanda +)
         const restaurantPhone = "6285819749737"; 
 
         // --- DATA ---
         const menuItems = [
-     { id: 1 ,name: " Nasi Ayam Kipas ", category:  "Makanan", price: 16000 , rating: 4.5, time: "10 min", img: " img/menu/Makanan/Ayam%20Kipas.png ", desc: " Nasi Ayam Kipas ." },
+{ id: 1 ,name: " Nasi Ayam Kipas ", category:  "Makanan", price: 16000 , rating: 4.5, time: "10 min", img: " img/menu/Makanan/Ayam%20Kipas.png ", desc: " Nasi Ayam Kipas ." },
 { id: 2 ,name: " Nasi Ayam Serundeng ", category:  "Makanan", price: 15000 , rating: 4.5, time: "10 min", img: " img/menu/Makanan/Ayam%20Serundeng.png ", desc: " Nasi Ayam Serundeng ." },
 { id: 3 ,name: " Nasi Cumi Calamari ", category:"Makanan", price: 15000 , rating: 4.5, time: "10 min", img: " img/menu/Makanan/Cumi%20Calamari.png ", desc: " Nasi Cumi Calamari ." },
 { id: 4 ,name: " Nasi Udang Selimut ", category:  "Makanan", price: 15000 , rating: 4.5, time: "10 min", img: " img/menu/Makanan/Udang%20Selimut.png ", desc: " Nasi Udang Selimut ." },
