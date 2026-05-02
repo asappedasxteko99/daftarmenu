@@ -5,7 +5,7 @@
         // --- DATA ---
         const menuItems = [
      { id: 1 ,name: " Nasi Ayam Kipas ", category:  "Makanan", price: 16000 , rating: 4.5, time: "10 min", img: " img/menu/Makanan/Ayam%20Kipas.png ", desc: " Nasi Ayam Kipas ." },
-{ id: 2 ,name: " Nasi Ayam Serundeng ", category:  "Makanan", price: 15000 , rating: 4.5, time: "10 min", img: " img/menu/Makanan/Ayam%20Serundeng.png ", desc: " Nasi Ayam Serundeng ." },
+{ id: 2 ,name: " Nasi Ayam <br/>Serundeng ", category:  "Makanan", price: 15000 , rating: 4.5, time: "10 min", img: " img/menu/Makanan/Ayam%20Serundeng.png ", desc: " Nasi Ayam Serundeng ." },
 { id: 3 ,name: " Nasi Cumi Calamari ", category:"Makanan", price: 15000 , rating: 4.5, time: "10 min", img: " img/menu/Makanan/Cumi%20Calamari.png ", desc: " Nasi Cumi Calamari ." },
 { id: 4 ,name: " Nasi Udang Selimut ", category:  "Makanan", price: 15000 , rating: 4.5, time: "10 min", img: " img/menu/Makanan/Udang%20Selimut.png ", desc: " Nasi Udang Selimut ." },
 { id: 5 ,name: " Nasi Chicken Katsu <br/> Barbeque ", category:  "Makanan", price: 15000 , rating: 4.5, time: "10 min", img: " img/menu/Makanan/Chicken%20Katsu%20Barbeque.png ", desc: " Nasi Chicken Katsu <br/> Barbeque ." },
