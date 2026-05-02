@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Asap Pedas X Teko</title>
+
+
+<link href='#' rel='dns-prefetch'/>
+<link href='#/' rel='canonical'/>
+<meta content='Kamu suka dengan makanan pedas? Coba Menu dari Asap Pedas dan Jangan Lupa Pesan Minum  ' name='description'/>
+<meta content='id' property='og:locale'/>
+<meta content='website' property='og:type'/>
+<meta content='Asap Pedas X Teko' property='og:title'/>
+<meta content='https://www.dealersuzuki-jatim.com/' property='og:url'/>
+<meta content='Saat Kamu Liburan Ke Kota Wisata Batu dan Lapar. Bingung Cari Makan dan Minuman Yang Enak dan Harganya Ramah Coba Menu dari Asap Pedas X Teko' property='og:description'/>
+<meta content='Asap Pedas X Teko' property='og:site_name'/>
+<meta content='#' property='og:image'/>
+<meta content='#' property='x:image'/>
+<meta content='summary_large_image' name='x:card'/>
+<meta content='Asap Pedas X Teko' name='x:title'/>
+<meta content='#' name='x:domain'/>
+<meta content='Saat Kamu Liburan Ke Kota Wisata Batu dan Lapar. Bingung Cari Makan dan Minuman Yang Enak dan Harganya Ramah Coba Menu dari Asap Pedas X Teko' name='x:description'/>
+ 
+	 
+    
+    <!-- Google Fonts: Poppins -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- css -->
+<link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+
+    <!-- Loading Animation - ->
+    <div id="loading-screen">
+        <div class="loader-logo">Asap Pedas X <span>Teko</span></div>
+        <div class="spinner"></div>
+    </div> -->
+
+    <!-- Toast Notification -->
+    <div id="toast"><i class="fas fa-check-circle" style="color: var(--primary);"></i> <span id="toast-msg">Berhasil</span></div>
+
+    <!-- Main App Container -->
+    <div id="app-container">
+        
+        <!-- Header -->
+        <header>
+            <div class="logo"><a href="" onclick="navigateTo('home')"><img src="img/Logo%20Asap%20Pedas%20X%20Teko.png" width="50%"  heigh="100%"></a></div>
+            <div class="cart-icon-wrapper" onclick="navigateTo('cart')">
+                <i class="fas fa-shopping-bag" style="font-size: 25px; color: var(--text-dark);"></i>
+                <div class="cart-badge" id="header-cart-count">0</div>
+
+            </div>
+<p style="font-size: 12px; color: var(--text-dark);">Daftar Pesanan</p>
+        </header>
+
+        <!-- Pages -->
+        <main>
+            <!-- HOME PAGE -->
+            <section id="home" class="page active">
+<div class="hero-card">
+                  <!-- <div class="hero-overlay"></div> -->
+                    <div class="hero-content">
+                        <h1 class="hero-title">Coffee Latte <br>Brown Sugar</h1>
+                        <p class="hero-subtitle">Diracik untuk kesegaran <br/>yang elegan</p>
+ <a href="#"   onclick="openModal(38)" class="btn-primary">
+
+                     <!--    <a href="#" onclick="filterMenu('all'); navigateTo('menu')" class="btn-primary"> -->
+                            Semua Menu <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div> 
+                </div>
+
+           <!-- <h2 style="margin-bottom: 15px; font-size: 1.3rem;">Popular Menu</h2> -->
+
+   <div class="categories">
+                    <div class="cat-chip active"><a href="#" onclick="filterMenu('all'); navigateTo('menu')" >All</a></div>
+                    <div class="cat-chip" ><a href="#" onclick="filterMenu('Makanan'); navigateTo('menu')" >Makanan</a></div>
+                    <div class="cat-chip" ><a href="#" onclick="filterMenu('Minuman'); navigateTo('menu')" >Minuman</a></div>
+                    <div class="cat-chip" ><a href="#" onclick="filterMenu('Minuman'); navigateTo('menu')" >Jajan</a></div>
+                </div>
+ 
+
+<div class="menu-grid" id="popular-grid"></div>
+<br/>
+<div class="hero-card-gofood">
+                    <div class="hero-overlay"></div>
+                    <div class="hero-content">
+                       <!-- <h1 class="hero-title">Ceker <br>Pedas</h1>
+                        <p class="hero-subtitle">Nikmati kemewahan rasa di setiap gigitan.</p> -->
+                        <a href="https://gofood.co.id/malang/restaurant/asap-pedas-x-teko-kota-batu-22837f80-3b08-48be-9dc9-10db3a5221a1"  class="btn-primary"  target="_blank">
+                         Go Food <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+
+
+<div class="hero-card-grabfood">
+                    <div class="hero-overlay"></div>
+                    <div class="hero-content">
+                      <!--  <h1 class="hero-title">Ceker <br>Pedas</h1>
+                        <p class="hero-subtitle">Nikmati kemewahan rasa di setiap gigitan.</p> -->
+                          <a href="https://food.grab.com/id/id/restaurant/asap-pedas-pesanggrahan-delivery/6-C7WXLLAUN7DYPE?nameSlug=asap-pedas---pesanggrahan&id=6-C7WXLLAUN7DYPE"  class="btn-primary" target="_blank">Grab Food <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+
+<div class="hero-card-shopeefood">
+                    <div class="hero-overlay"></div>
+                    <div class="hero-content">
+                     <!--   <h1 class="hero-title">Ceker <br>Pedas</h1>
+                        <p class="hero-subtitle">Nikmati kemewahan rasa di setiap gigitan.</p> -->
+                        <a href="https://food.grab.com/id/id/restaurant/asap-pedas-pesanggrahan-delivery/6-C7WXLLAUN7DYPE?nameSlug=asap-pedas---pesanggrahan&id=6-C7WXLLAUN7DYPE"  class="btn-primary">Shopee Food<i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+
+
+ </section>
+
+
+
+
+
+
+
+
+            <!-- MENU PAGE -->
+            <section id="menu" class="page">
+                <h2 style="margin-bottom: 15px; font-size: 1.3rem;">Our Menu</h2>
+                <div class="categories">
+                    <div class="cat-chip active" onclick="filterMenu('all', this)">All</div>
+                    <div class="cat-chip" onclick="filterMenu('Makanan', this)">Makanan</div>
+                    <div class="cat-chip" onclick="filterMenu('Minuman', this)">Minuman</div>
+                    <div class="cat-chip" onclick="filterMenu('Jajan', this)">Jajan</div>
+                </div>
+                <div class="menu-grid" id="full-menu-grid"></div>
+            </section>
+
+            <!-- CART PAGE -->
+            <section id="cart" class="page">
+                <h2 style="margin-bottom: 20px; font-size: 1.3rem;">Pesanan Saya</h2>
+                <div id="cart-content"></div>
+            </section>
+
+            <!-- PROFILE PAGE -->
+            <section id="profile" class="page">
+                <div class="profile-header">
+                    <img src="img/logo-teko.png" alt="Profile" class="profile-avatar">
+                    <h2 style="font-size: 1.5rem;">Asap Pedas X Teko</h2>
+                    <p style="color: var(--text-gray);">Gold Member</p>
+                </div>
+                <div class="profile-menu-list">
+                    <div class="profile-item">
+                        <div style="display: flex; align-items: center; gap: 15px;">
+                            <i class="fas fa-user p-icon"></i>
+                            <span>Edit Profile</span>
+                        </div>
+                        <i class="fas fa-chevron-right" style="font-size: 0.8rem; color: #ccc;"></i>
+                    </div>
+                    <div class="profile-item">
+                        <div style="display: flex; align-items: center; gap: 15px;">
+                            <i class="fas fa-receipt p-icon"></i>
+                            <span>Order History</span>
+                        </div>
+                        <i class="fas fa-chevron-right" style="font-size: 0.8rem; color: #ccc;"></i>
+                    </div>
+                    <div class="profile-item">
+                        <div style="display: flex; align-items: center; gap: 15px;">
+                            <i class="fas fa-credit-card p-icon"></i>
+                            <span>Payment Methods</span>
+                        </div>
+                        <i class="fas fa-chevron-right" style="font-size: 0.8rem; color: #ccc;"></i>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <!-- Product Detail Modal -->
+    <div class="modal-overlay" id="product-modal">
+        <div class="modal-content">
+            <div class="modal-close" onclick="closeModal()">
+                <i class="fas fa-times"></i>
+            </div>
+            <img src="" alt="" class="modal-img" id="modal-img">
+            <div class="modal-body">
+                <div class="modal-title" id="modal-title">Product Title</div>
+                <div class="modal-meta">
+                    <span id="modal-rating"><i class="fas fa-star"></i> 4.8</span>
+                    <span id="modal-time"><i class="fas fa-clock"></i> 20 min</span>
+                    <span id="modal-cat">Category</span>
+                </div>
+                <p class="modal-desc" id="modal-desc">Description goes here.</p>
+            </div>
+            <div class="modal-footer">
+                <div class="modal-price" id="modal-price">Rp 0</div>
+                <button class="btn-primary" id="modal-add-btn" onclick="addToCartFromModal()">
+                    Add to Cart
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bottom Navigation -->
+    <nav class="bottom-nav">
+        <div class="nav-item active" onclick="navigateTo('home')" id="nav-home">
+            <i class="fas fa-home"></i>
+            <span>Home</span>
+        </div>
+        <div class="nav-item" onclick="navigateTo('menu')" id="nav-menu">
+            <i class="fas fa-utensils"></i>
+            <span>Menu</span>
+        </div>
+        <div class="nav-item" onclick="navigateTo('cart')" id="nav-cart">
+            <i class="fas fa-shopping-basket"></i>
+            <span>Cart</span>
+        </div>
+        <div class="nav-item" onclick="navigateTo('profile')" id="nav-profile">
+            <i class="fas fa-user"></i>
+            <span>Profile</span>
+        </div>
+    </nav>
+
+ <script src="script.js"></script>
+</body>
+</html>
