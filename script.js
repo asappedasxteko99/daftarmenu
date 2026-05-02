@@ -241,7 +241,7 @@
             }
 
             // Buat Pesan
-            let message = "Halo Asap Pdas X Teko, saya ingin memesan:%0A%0A"; // %0A adalah enter
+            let message = "Halo Asap Pedas X Teko, saya ingin memesan:%0A%0A"; // %0A adalah enter
             let subtotal = 0;
 
             cart.forEach(item => {
