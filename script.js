@@ -43,7 +43,7 @@
 { id: 35 ,name: " Mango Milk ", category:  "Minuman", price: 8000 , rating: 4.5, time: "5 min", img: " img/menu/Minuman/Mango%20Milk.png ", desc: " Mango Milk ." },
 { id: 36 ,name: " Chocolate Milk ", category:  "Minuman", price: 8000 , rating: 4.5, time: "5 min", img: " img/menu/Minuman/Chocolate%20Milk.png ", desc: " Chocolate Milk ." },
 { id: 37 ,name: " Coffee Latte ", category:  "Minuman", price: 12000 , rating: 4.5, time: "5 min", img: " img/menu/Minuman/Chocolate%20Milk-1.png ", desc: " Coffee Latte ." },
-{ id: 38 ,name: " Coffee Latte Brown Sugar ", category:  "Minuman", price: 14000 , rating: 4.5, time: "5 min", img: " img/menu/Minuman/Coffee%20Latte%20Brown%20Sugar.png ", desc: " Coffee Latte Brown Sugar ." },
+{ id: 38 ,name: " Coffee Latte<br/>Brown Sugar ", category:  "Minuman", price: 14000 , rating: 4.5, time: "5 min", img: " img/menu/Minuman/Coffee%20Latte%20Brown%20Sugar.png ", desc: " Coffee Latte Brown Sugar ." },
 { id: 39 ,name: " Sup Buah ", category:  "Minuman", price: 12000 , rating: 4.5, time: "5 min", img: " img/menu/Minuman/Sup%20Buah.png ", desc: " Sup Buah ." },
 { id: 40 ,name: " Cendol Kecebong ", category:  "Minuman", price: 12000 , rating: 4.5, time: "5 min", img: " img/menu/Minuman/Cendol%20Kecebong.png ", desc: " Cendol Kecebong ." },
 
